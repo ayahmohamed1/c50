@@ -60,12 +60,12 @@ const ClientData = {
   // ───────────────────────────────────────────────────────────────────────
   song: {
     heading: "A SONG FOR YOU",                   // العنوان العلوي
-    title: "yama 3youn 4a8lony",                  // اسم الأغنية
-    artist: "Om Kalthoum",                   // اسم المغني / المؤدي
+    title: "𝓣𝓸 𝓽𝓱𝓮 𝓶𝓸𝓼𝓽 𝓲𝓷𝓼𝓹𝓲𝓻𝓲𝓷𝓰 𝓯𝓪𝓷 𝓸𝓯",                  // اسم الأغنية
+    artist: "𝓖𝓮𝓸𝓻𝓰𝓮 𝓦𝓪𝓼𝓼𝓸𝓾𝓯",                   // اسم المغني / المؤدي
     coverArt: "/cover.png",                      // صورة غلاف الأسطوانة في فولدر public
     audioSrc: "/song.mp3",                       // 🎧 مسار ملف الأغنية (حط أغنيتك في فولدر public باسم song.mp3)
     footerLine: "Because every song reminds me of you...", // العبارة الإنجليزية الشاعرية
-          // العبارة العربية
+    // العبارة العربية
   },
 
   // ───────────────────────────────────────────────────────────────────────
@@ -89,7 +89,7 @@ const ClientData = {
   video: {
     heading: "ONE MORE THING",                   // العنوان العلوي
     caption: "A little memory, just for you",    // العبارة الشاعرية
-           // عبارة عربية
+    // عبارة عربية
     videoSrc: "/video.mp4",                      // مسار ملف الفيديو في فولدر public
   },
 };

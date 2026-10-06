@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Aref+Ruqaa:wght@400;700&family=Cairo:wght@400;500;600;700&family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400;1,600&family=Great+Vibes&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+body {
+  background-color: #F5ECE1; /* الخلفية تملأ الشاشة بالكامل باللون البيج الفينتاج */
+  margin: 0;
+  padding: 0;
+  font-family: 'Cormorant Garamond', serif;
+  color: #3D271D;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* الخطوط العربية الأنيقة */
+.font-arabic {
+  font-family: 'Amiri', 'Noto Naskh Arabic', serif;
+  letter-spacing: 0.01em;
+  line-height: 2.1;
+}
+
+.font-arabic-clean {
+  font-family: 'Cairo', sans-serif;
+}
+
+.font-ruqaa {
+  font-family: 'Aref Ruqaa', cursive;
+}
+
+/* تأثير حبيبات الورق القديم (Vintage Grain) */
+.grain-bg {
+  background-image: radial-gradient(circle at 1px 1px, rgba(61, 39, 29, 0.05) 1px, transparent 0);
+  background-size: 14px 14px;
+}
+
+/* ورقة رسالة فينتاج قديمة */
+.vintage-letter {
+  background-color: #FAF4EC;
+  background-image: linear-gradient(180deg, rgba(255,255,255,0.6) 0%, rgba(245, 236, 225, 0.9) 100%);
+  box-shadow: 
+    0 2px 4px rgba(61, 39, 29, 0.06),
+    0 10px 24px -4px rgba(61, 39, 29, 0.16),
+    inset 0 0 40px rgba(139, 72, 48, 0.03);
+  border: 1px solid #E5D8CA;
+}
+
+/* الخط الفاصل الفينتاج */
+.divider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  margin: 14px 0;
+  color: #8B4830;
+  opacity: 0.75;
+}
+.divider::before, .divider::after {
+  content: '';
+  width: 45px;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, #8B4830);
+  opacity: 0.5;
+}
+.divider::after {
+  background: linear-gradient(90deg, #8B4830, transparent);
+}
+
+/* شريط التمرير */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #F5ECE1;
+}
+::-webkit-scrollbar-thumb {
+  background: #C4B5A5;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #8B4830;
+}
